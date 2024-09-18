@@ -1,5 +1,8 @@
 export type Superhero = {
-    id: string;
-    name: string;
-    description: string;
-  };
+  id: number;
+  name: string;
+  description: string;
+  alterEgo: string;
+  imgUrl: string;
+  comic: string;
+};
